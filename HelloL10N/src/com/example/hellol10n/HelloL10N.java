@@ -39,5 +39,5 @@ public class HelloL10N extends Activity {
         
     }
     
-    //coooooomment
+    //coooooomment agaaaiiiinnn
 }
