@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class HelloL10N extends Activity {
-    /** Called when the activity is first created. */
+    /** Called when the  activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
