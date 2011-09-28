@@ -14,7 +14,7 @@ public class HelloL10N extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-     // assign flag.png to the button, loading correct flag image for current locale
+     // assign flag.png to the button, loading correct flag image for current locale and some more comments
         Button b;
         (b = (Button)findViewById(R.id.flag_button)).setBackgroundDrawable(this.getResources().getDrawable(R.drawable.flag));
 
@@ -38,4 +38,6 @@ public class HelloL10N extends Activity {
             });
         
     }
+    
+    //coooooomment agaaaiiiinnn
 }

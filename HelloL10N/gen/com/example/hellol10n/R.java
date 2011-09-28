@@ -24,7 +24,6 @@ public final class R {
         public static final int app_name=0x7f040000;
         public static final int dialog_text=0x7f040004;
         public static final int dialog_title=0x7f040003;
-        public static final int hallo=0x7f040005;
         public static final int text_a=0x7f040001;
         public static final int text_b=0x7f040002;
     }
