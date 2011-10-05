@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="@string/sNewPhoneNumber" android:key="PhoneNum"></EditTextPreference>
+    <EditTextPreference android:title="@string/sNewPhoneNum2" android:key="PhoneNum2"></EditTextPreference>
+    <EditTextPreference android:key="PhoneNumHH" android:title="@string/sNewPhoneNumHH" ></EditTextPreference>
+    
+</PreferenceScreen>

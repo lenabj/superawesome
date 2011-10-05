@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Senior</string>
+	<string name="sbuttonHomeH">Hjemmehjelpen</string>
+	<string name="sbuttonCal">Kalender</string>
+	<string name="sbuttonPic">Ta bilde</string>
+	<string name="sbuttonPers1">Person1</string>
+	<string name="sbuttonPers2">Person2</string>
+	<string name="sNewPhoneNumber">Nummer for person 1</string>
+	<string name="tPrefs">Preferanser</string>
+	<string name="sNewPhoneNum2">Nummer for person 2</string>
+	<string name="sNewPhoneNumHH">Nummer for HJemmehjelpen</string>
+	<string name="sAbout">Om</string>
+	<string name="sAboutText">Dette er en app laget for å være en enkel hjelper i
+		hverdagen. Den hjelper deg å holde styr på helsen din og gjør det
+		enkelt å komme i kontakt med viktige personer.</string>
+	<string name="sNoNum">Du må skrive inn et nummer først</string>
+	<string name="sSendPic">Send bilde</string>
+</resources>
+

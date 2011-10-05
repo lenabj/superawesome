@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Senior</string>
+	<string name="sbuttonHomeH">Hemtjänst</string>
+	<string name="sbuttonCal">Kalender</string>
+	<string name="sbuttonPic">Ta bild</string>
+	<string name="sbuttonPers1">Person1</string>
+	<string name="sbuttonPers2">Person2</string>
+	<string name="sNewPhoneNumber">Nummer for person 1</string>
+	<string name="tPrefs">Preferenser</string>
+	<string name="sNewPhoneNum2">Nummer för person 2</string>
+	<string name="sNewPhoneNumHH">Number for Hemtjäst</string>
+	<string name="sAbout">Om</string>
+	<string name="sAboutText">Detta är en app lagat til å vara en lättanvänt
+		hjälpare i din dagliga rutine. Hjälper dig att hålla koll på din
+		hälsa, och gör det lätt att komma i kontakt med viktiga människor.
+		Gjord av Lena och Malin</string>
+	<string name="sNoNum">Du måste ange ett telefonnummer först</string>
+	<string name="sSendPic">Skicka bild</string>
+</resources>

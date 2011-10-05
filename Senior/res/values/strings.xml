@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, SeniorActivity!</string>
     <string name="app_name">Senior</string>
+    <string name="sbuttonHomeH">Home helper</string>
+    <string name="sbuttonCal">Calendar</string>
+    <string name="sbuttonPic">Take picture</string>
+    <string name="sbuttonPers1">Person1</string>
+    <string name="sbuttonPers2">Person2</string>
+    <string name="sNewPhoneNumber">Number for person 1</string>
+    <string name="tPrefs">Preferences</string>
+    <string name="sNewPhoneNum2">Number for person 2</string>
+    <string name="sNewPhoneNumHH">Number for Home helper</string>
+    <string name="sAbout">About</string>
+	<string name="sAboutText">This is a application made to be an easy to use
+		helper in your day to day rutine. Helps you keep track of your health,
+		and makes it easy to get in contact with important people. Made by
+		Lena and Malin</string>
+	<string name="sNoNum">You have to enter a phone number first</string>
+	<string name="sSendPic">Send Picture</string>    
 </resources>

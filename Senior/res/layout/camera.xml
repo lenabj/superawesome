@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:padding="10dp"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+
+	<ImageView android:id="@+id/imageV" android:src="@drawable/icon"
+		android:layout_gravity="center" android:layout_width="250dp"
+		android:layout_marginBottom="20dp" android:layout_height="170dp"></ImageView>
+	<Button android:layout_height="wrap_content" android:id="@+id/bTakePic"
+		android:text="@string/sbuttonPic" android:layout_gravity="center"
+		android:layout_width="220dp" android:layout_marginTop="10dp"></Button>
+	<Button android:layout_height="wrap_content" android:id="@+id/bSendPic"
+		android:text="@string/sSendPic" android:ellipsize="none"
+		android:layout_gravity="center" android:layout_width="220dp"
+		android:layout_margin="15dp"></Button>
+
+</LinearLayout>

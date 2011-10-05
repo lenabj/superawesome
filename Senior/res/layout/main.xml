@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="4dp"
+	android:weightSum="1">
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:visibility="visible">
+
+		<LinearLayout android:id="@+id/linearLayout1"
+			android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:orientation="horizontal" android:weightSum="100"
+				android:layout_height="wrap_content">
+				<Button android:layout_weight="50" android:layout_width="fill_parent"
+					android:layout_height="160dp" android:id="@+id/bCal" android:text="@string/sbuttonCal"></Button>
+				<Button android:layout_weight="50" android:layout_width="fill_parent"
+					android:layout_height="160dp" android:id="@+id/bPicture"
+					android:text="@string/sbuttonPic"></Button>
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="horizontal"
+				android:weightSum="100">
+				<Button android:layout_weight="50" android:layout_width="fill_parent"
+					android:layout_height="160dp" android:id="@+id/bPers1"
+					android:text="@string/sbuttonPers1"></Button>
+				<Button android:layout_weight="50" android:layout_width="fill_parent"
+					android:layout_height="160dp" android:id="@+id/bPers2"
+					android:text="@string/sbuttonPers2"></Button>
+			</LinearLayout>
+
+			<Button android:layout_width="fill_parent"
+				android:id="@+id/bHomeH"
+				android:text="@string/sbuttonHomeH" android:layout_height="148dp"></Button>
+		</LinearLayout>
+	</ScrollView>
 </LinearLayout>
